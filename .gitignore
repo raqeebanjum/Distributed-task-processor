@@ -1,0 +1,77 @@
+# --- Go ---
+/bin/
+*.exe
+*.test
+*.out
+coverage.out
+go.work
+go.work.sum
+vendor/
+
+# --- Node / React (web/) ---
+node_modules/
+web/dist/
+web/build/
+web/coverage/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Secrets and environment ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+keys/
+
+# --- Runtime data (uploads, results, scratch) ---
+data/
+storage/
+uploads/
+scratch/
+tmp/
+*.nef
+*.NEF
+*.fit
+*.fits
+*.fts
+*.ser
+
+# --- Docker / local overrides ---
+docker-compose.override.yml
+.docker/
+
+# --- AI assistant files ---
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+.cursor/
+.cursorrules
+.cursorignore
+.windsurf/
+.windsurfrules
+.aider*
+.continue/
+.codeium/
+.gemini/
+GEMINI.md
+AGENTS.md
+.github/copilot-instructions.md
+.github/instructions/
+.agents/
+.skills/
+skills/
+*.skill
+
+# --- Editors and OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
