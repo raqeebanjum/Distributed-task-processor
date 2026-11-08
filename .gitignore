@@ -61,7 +61,7 @@ CLAUDE.local.md
 .codeium/
 .gemini/
 GEMINI.md
-AGENTS.md
+!AGENTS.md
 .github/copilot-instructions.md
 .github/instructions/
 .agents/
@@ -75,3 +75,5 @@ skills/
 *.swp
 .DS_Store
 Thumbs.db
+/Spec.md
+/AGENTS.md
